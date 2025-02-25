@@ -26,14 +26,6 @@ const dotsContainer = document.querySelector(".dots");
 console.log("Flèche gauche :", leftArrow);
 console.log("Flèche droite :", rightArrow);
 
-leftArrow.addEventListener("click", () => {
-    console.log("Clic sur la flèche gauche !");
-});
-
-rightArrow.addEventListener("click", () => {
-    console.log("Clic sur la flèche droite !");
-});
-
 let index = 0;
 
 function createDots() {
